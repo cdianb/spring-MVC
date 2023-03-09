@@ -15,6 +15,7 @@
     <!-- 让Spring MVC不处理静态资源 -->
     <mvc:default-servlet-handler />
     <!--
+    
     支持mvc注解驱动
         在spring中一般采用@RequestMapping注解来完成映射关系
         要想使@RequestMapping注解生效
