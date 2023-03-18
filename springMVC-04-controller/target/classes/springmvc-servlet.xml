@@ -21,12 +21,12 @@
            4.将数据渲染到视图上
     -->
     <!--视图解析器:DispatcherServlet给他的ModelAndView-->
-<!--    <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver" id="InternalResourceViewResolver">-->
-<!--        &lt;!&ndash;前缀&ndash;&gt;-->
-<!--        <property name="prefix" value="/WEB-INF/jsp/"/>-->
-<!--        &lt;!&ndash;后缀&ndash;&gt;-->
-<!--        <property name="suffix" value=".jsp"/>-->
-<!--    </bean>-->
+    <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver" id="InternalResourceViewResolver">
+        <!--前缀-->
+        <property name="prefix" value="/WEB-INF/jsp/"/>
+        <!--后缀-->
+        <property name="suffix" value=".jsp"/>
+    </bean>
 
 
     <!--Handler-->
