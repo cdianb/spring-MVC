@@ -12,6 +12,7 @@
 </head>
 <body>
 
+<%--   action="add/3/12"   地址最前面千万别加/   不然请求不到具体地址--%>
 <form action="add/3/12" method="post">
     <input type="submit">
 </form>
