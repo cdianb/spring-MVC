@@ -74,7 +74,7 @@ public class UserController {
     @GetMapping("/model/map")
     public String test4(User user, ModelMap modelMap){
         System.out.println(user.toString());
-        modelMap.addAttribute("msg", "用户信息为：" + user.getId() + "-" + user.getName()  + "-" + user.getAge());
+        modelMap.addAttribute("msg", "用户信息为：" + user.getId() + "-" + user.getName()  + "-"  + user.getAge());
         return "test";
     }
 }
